@@ -3,10 +3,26 @@
   "version": "1.0.0",
   "description": "A personal boilerplate by Jonathan Sedrez. Ready to kickstart new projects with my favorite tools. 🚀",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "Jonathan de Britto Sedrez",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
 }
