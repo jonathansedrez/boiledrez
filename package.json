@@ -5,12 +5,23 @@
   "engines": {
     "node": ">=20.19.0"
   },
-  "keywords": [],
   "author": "Jonathan de Britto Sedrez",
   "license": "MIT",
+  "keywords": [
+    "boilerplate",
+    "react",
+    "vite",
+    "pnpm",
+    "cli",
+    "template"
+  ],
   "bin": {
     "create-boiledrez": "dist/create.js"
   },
+  "files": [
+    "dist",
+    "template"
+  ],
   "type": "module",
   "scripts": {
     "build": "tsc"
