@@ -26,7 +26,7 @@ program
     // 3. Install dependencies
     const spinner = ora("📦 Installing dependencies with pnpm...").start();
     try {
-        await execa("pnpm", ["install"], { cwd: targetPath, stdio: "inherit" });
+        await execa("pnpm", ["install"], { cwd: targetPath });
         spinner.succeed("✅ Dependencies installed!");
     }
     catch (error) {
